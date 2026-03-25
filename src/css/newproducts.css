@@ -69,3 +69,19 @@
   cursor: pointer;
   aspect-ratio: 1/1;
 }
+
+
+.swiper_2 {
+  position: relative;
+  padding: 0 50px; 
+}
+
+.swiper_2 .swiper-button-prev {
+  left: 0px !important;
+  color: #222;
+}
+
+.swiper_2 .swiper-button-next {
+  right: 0px !important;
+  color: #222;
+}

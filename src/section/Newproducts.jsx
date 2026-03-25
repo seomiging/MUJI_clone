@@ -196,8 +196,9 @@ const Newproducts = () => {
   <Swiper
     modules={[Navigation]}
     navigation={true}
-    slidesPerView={2}
+    slidesPerView={6}
     spaceBetween={16}
+    className="swiper_2"
   >
     {products[activeCategory]?.map(item => (
       <SwiperSlide key={item.id}>
