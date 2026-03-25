@@ -4,6 +4,7 @@
   width: 100%;
   overflow: hidden;
   margin-bottom: 50px;
+  padding-top: 124px;
 }
 .main_img_swiper img {
   object-fit: cover;
