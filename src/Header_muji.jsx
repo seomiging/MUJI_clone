@@ -9,7 +9,7 @@ const Header_muji = () => {
       </div>
       <div className='nav_inner'>
       <nav className='web_nav'>
-        <div className='logoimg'><img src='./header/logo.svg' alt='headerlogo'/></div>
+        <div className='logoimg'><a href='#'><img src='./header/logo.svg' alt='headerlogo'/></a></div>
         <ul className='header_nav'>
           <li>BEST</li>
           <li>의복</li>

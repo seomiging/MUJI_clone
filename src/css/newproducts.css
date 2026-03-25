@@ -1,6 +1,7 @@
 .newproducts_section {
   padding: 3.5%;
   margin-bottom: 50px;
+  overflow-x: hidden;
 }
 .newproducts_section h2 {
   font-size: 28px;
@@ -73,7 +74,9 @@
 
 .swiper_2 {
   position: relative;
-  padding: 0 50px; 
+  padding-left: 0 !important; 
+  padding-right: 0 !important;
+  overflow: visible !important;
 }
 
 .swiper_2 .swiper-button-prev {
@@ -84,4 +87,17 @@
 .swiper_2 .swiper-button-next {
   right: 0px !important;
   color: #222;
+}
+
+.swiper_2 .swiper-button-prev.swiper-button-disabled {
+  opacity: 0;
+  cursor: auto;
+  pointer-events: none; 
+}
+
+
+.swiper_2 .swiper-button-next.swiper-button-disabled {
+  opacity: 0;
+  cursor: auto;
+  pointer-events: none;
 }
