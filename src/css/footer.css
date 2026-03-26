@@ -16,6 +16,7 @@ footer{
 
 .footerul li{
   font-weight: 500;
+  cursor: pointer;
 }
 .footerul .footer_li_private{
   font-weight: 800;
@@ -23,6 +24,7 @@ footer{
 .footer_logobox{
   width: 100%;
   height: 60px;
+  cursor: pointer;
 }
 .footer_text_innerbox{
 display: flex;
@@ -39,6 +41,7 @@ gap: 20%;
 .footertext1 ul li{
   font-weight: 600;
   font-size: 15px;
+  cursor: pointer;
 }
 .footertext2{
   flex-shrink: 0;
@@ -60,6 +63,7 @@ gap: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .footertext2_imgbox div img{
   width: 20px;
@@ -73,10 +77,16 @@ gap: 20%;
   font-weight: 450;
 }
 .footertext3_check{
-  text-decoration: underline;
+  color: #9d9da0;
+text-decoration: underline;
 font-weight: 600;
 margin-bottom: 16px;
+cursor: pointer;
 }
+.footertext3_check :hover{
+  color: #333;
+}
+
 .footer_btn{
   border: none;
 }
@@ -92,6 +102,7 @@ margin-bottom: 16px;
   background-color: white;
   cursor: pointer;
   font-weight: 700;
+  color: #333;
 }
 
 .footertext_mob{
