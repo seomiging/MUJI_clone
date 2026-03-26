@@ -39,10 +39,14 @@
 }
 .product_name {
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 10px;
-  margin-bottom: 18px;
+  margin-bottom: 24px;
   color: #222;
+  
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .product_price {
